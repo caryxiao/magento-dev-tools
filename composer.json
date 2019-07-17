@@ -1,0 +1,39 @@
+{
+    "name": "cary/magento-dev-tools",
+    "description": "magento2 dev tools",
+    "keywords": [
+        "magento 2",
+        "dev tools",
+        "logger"
+    ],
+    "license": [
+        "MIT"
+    ],
+    "homepage": "http://sun190.com/",
+    "support": {
+        "email": "289872225@qq.com",
+        "issues": "https://github.com/caryxiao/magento-dev-tools/issues"
+    },
+    "authors": [
+        {
+            "name": "Cary",
+            "email": "289872225@qq.com",
+            "homepage": "http://sun190.com/",
+            "role": "Leader"
+        }
+    ],
+    "require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.1.3|~7.2.0",
+        "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageDevTools\\Logger\\": ""
+        }
+    }
+}
