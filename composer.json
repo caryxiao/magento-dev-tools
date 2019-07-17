@@ -30,10 +30,10 @@
     "version": "1.0.0",
     "autoload": {
         "files": [
-            "registration.php"
+            "Logger/registration.php"
         ],
         "psr-4": {
-            "MageDevTools\\Logger\\": ""
+            "MageDevTools\\Logger\\": "Logger"
         }
     }
 }
